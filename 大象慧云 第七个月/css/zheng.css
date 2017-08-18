@@ -244,13 +244,18 @@
   display: flex;
   justify-content: space-around; }
   .footer-last ul {
-    width: 11%;
-    height: 200px; }
-    .footer-last ul li a {
+    width: 11%; }
+    .footer-last ul li {
       color: #9C9C9C;
       font-size: 13px;
       text-align: center; }
-    .footer-last ul .wow a {
+    .footer-last ul .none-lie {
+      width: 100%;
+      display: block; }
+      .footer-last ul .none-lie li {
+        color: black;
+        width: 100%; }
+    .footer-last ul .wow {
       font-weight: 800;
       color: black;
       font-size: 15px; }
@@ -372,18 +377,21 @@
         height: 3rem; }
   .footer-last {
     width: 80%;
-    height: 2rem;
     display: block; }
     .footer-last ul {
       width: 45%;
-      height: 0.5rem;
       float: left; }
-      .footer-last ul li {
-        text-align: center;
-        display: none;
-        height: 0.2rem; }
+      .footer-last ul .none-lie {
+        width: 100%;
+        display: none; }
+        .footer-last ul .none-lie li {
+          width: 100%;
+          text-align: center;
+          color: darkgray;
+          height: 0.2rem; }
       .footer-last ul .wow {
-        display: block; }
+        display: block;
+        height: 0.2rem; }
   .footer-bottom {
     width: 80%;
     height: 1.5rem;

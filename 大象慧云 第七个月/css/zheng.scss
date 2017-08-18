@@ -299,20 +299,23 @@
     justify-content: space-around;
     ul {
         width: 11%;
-        height: 200px;
         li {
-            a {
-                color: #9C9C9C;
-                font-size: 13px;
-                text-align: center;
+            color: #9C9C9C;
+            font-size: 13px;
+            text-align: center;
+        }
+        .none-lie{
+            width:100%;
+            display:block;
+            li{
+                color:black;
+                width: 100%;
             }
         }
         .wow {
-            a {
-                font-weight: 800;
-                color: black;
-                font-size: 15px;
-            }
+            font-weight: 800;
+            color: black;
+            font-size: 15px;
         }
     }
 }
@@ -478,19 +481,23 @@
     }
     .footer-last{
         width:80%;
-        height:2rem;
         display: block;
         ul{
             width:45%;
-            height:0.5rem;
             float: left;
-            li{
-                text-align: center;
+            .none-lie{
+                width:100%;
                 display: none;
-                height:0.2rem;
+                li{
+                    width:100%;
+                    text-align: center;
+                    color:darkgray;
+                    height:0.2rem;
+                }
             }
             .wow{
                 display: block;
+                height:0.2rem;
             }
         }
     }
